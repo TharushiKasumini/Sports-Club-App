@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <!-- CardView for Error Message -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/error_background_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/error_please_enter_exactly_12_characters"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/error_text_color"
+            android:gravity="center" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Button to Go Back -->
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retry"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="@android:color/white"
+        android:padding="12dp"/>
+</LinearLayout>

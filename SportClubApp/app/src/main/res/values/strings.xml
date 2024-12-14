@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sport Club App</string>
+    <string name="enter_12_characters">Enter Your NIC Number</string>
+    <string name="sport_club">Sport Club</string>
+    <string name="error_please_enter_exactly_12_characters">Error: Please enter exactly 12 characters</string>
+    <string name="retry">Retry</string>
+    <string name="name">Name</string>
+    <string name="details_will_appear_here">Details will appear here</string>
+</resources>
